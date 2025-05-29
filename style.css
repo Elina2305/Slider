@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+body {
+box-sizing: border-box;  
+
+margin: 0;
+padding: 0;
+
+}
+ 
+
+.main {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+position: relative;
+width: 1470px;
+height: 620px;
+
+border-radius: 50px;
+background: linear-gradient(0deg, rgba(213, 219, 201, 0.35), rgba(213, 219, 201, 0.35)), #FFFFFF;
+box-shadow: 1px 3px 10px rgba(156, 159, 151, 0.6);
+
+}
+
+
+.slider-arrows__items__wrapper {
+display: flex;
+gap: 16px;
+}
+
+
+
+.slider-arrows__nav {
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ width: 660px;
+height: 75px; 
+margin: 48px 405px 36px;
+
+}
+
+.slider-arrows__arrow__left {
+    border: none;
+
+}
+
+
+.slider-arrows__header {
+  
+/* World Discover */
+
+width: 512px;
+height: 75px; 
+margin: 0 24px;
+    
+font-family: "Inknut Antiqua", serif;
+font-weight: 400;
+font-size: 60px;
+text-align: center;
+white-space: nowrap;
+line-height: 75px; 
+
+color: #14170E;
+}
+
+.slider-arrows__arrow__right {
+border: none;
+}
+
+
+.slider-arrows__scrollbar {
+display: flex; 
+justify-content: center; 
+align-items: center;
+gap: 12px;
+    
+   
+}
+.slider-arrows__scrollbar__icon {
+    
+width: 53.5px; 
+height: 6px; 
+margin-top: 36px;
+margin-bottom: 59px;
+
+transition: filter 0.1s;
+}
+
+.active {
+    filter: brightness(0.9); 
+}
